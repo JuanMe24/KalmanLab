@@ -1,9 +1,11 @@
 # 🧠 K-Sense: Kit Educativo de Fusión Sensorial
 
-**Autores:** Juan David Meza Criollo & Juan Pablo Lopez Martinez  
-**Institución:** Universidad Nacional de Colombia
+**Autores:** Juan David Meza Criollo   
+Universidad Nacional de Colombia
 
-![K-Sense Visualizer](https://via.placeholder.com/800x400?text=K-Sense+Visualizer+Demo)
+<p align="center">
+  <img src="k_sense_img/Interfaz.png" alt="K-Sense Visualizer" width="600">
+</p>
 
 ## 📖 Descripción
 K-Sense es una plataforma didáctica diseñada para visualizar en tiempo real la importancia de los algoritmos de fusión sensorial. Utilizando un **ESP32** y una IMU **BMI160**, el sistema permite comparar el comportamiento de sensores inerciales independientes frente a una solución fusionada con **Filtro de Kalman**.
@@ -49,7 +51,11 @@ Representa la incertidumbre de la medición física (Acelerómetro).
 * **R Baja:** Le decimos que el sensor es perfecto.
     * *Efecto:* El filtro deja pasar todas las vibraciones mecánicas.
 
-> **Valores por defecto en K-Sense:** `Q=0.08` y `R=0.55`. Estos han sido sintonizados experimentalmente para filtrar golpes en la mesa sin perder agilidad en la rotación manual. Se hizo tomas y luego se procesaron en matlab para ver la mejor pareja de parametros experimentales. 
+> **Valores por defecto en K-Sense:** `Q=0.08` y `R=0.55`. Estos han sido sintonizados experimentalmente para filtrar golpes en la mesa sin perder agilidad en la rotación manual. Se hizo tomas y luego se procesaron en matlab para ver la mejor pareja de parametros experimentales.
+
+<p align="center">
+  <img src="k_sense_img/K_sense_matlab.png" alt="K-Sense Matlab" width="600">
+</p>
 
 ---
 
